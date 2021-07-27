@@ -2,3 +2,13 @@ React는 HTML의 태그 안에 다른 tag를 삽입할 수 있다.
 이는 마치 함수의 은닉성과 유사해 보인다.
 이런 점으로 인해 속도가 빠르다.
 모든 태그를 다 때려박아두지 않고 빈 index를 열기 때문이다.
+
+React는 component 와 같이 동작한다.
+모든 것은 component 다.
+component가 data를 보여준다.
+component는 function 이고 html 태그를 반환한다.
+
+이런 식으로 javascrip 와 html 사이의 조합을 jsx 라고 부른다.
+
+react는 하나의 render에서 하나의 component만 렌더링이 가능하다.
+그러므로 component 안에 다른 component를 집어넣는 방식으로 코딩이 가능하다.

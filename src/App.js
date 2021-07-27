@@ -1,3 +1,5 @@
+import React from "react";
+import Potato from "./potato";
 
 function App() {
   return (
@@ -5,6 +7,7 @@ function App() {
       <h1>
         Hello~
       </h1>
+      <Potato />
     </div>
   );
 }
